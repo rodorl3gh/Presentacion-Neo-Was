@@ -129,7 +129,7 @@ export default function Page() {
   return (
     <>
       {/* ======== SLIDE 1: PORTADA ======== */}
-      <section id="portada" className="relative min-h-dvh flex items-center justify-center px-4 sm:px-6 lg:px-8 pb-20 bg-glow-purple">
+      <section id="portada" className="relative min-h-[calc(100dvh-56px)] flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8 bg-glow-purple">
         <div className="max-w-5xl mx-auto w-full relative z-10 text-center">
           <div className="animate-fade-in-up">
             <span className="section-badge bg-purple-500/10 text-purple-400 border border-purple-500/20 mb-6">
@@ -159,9 +159,9 @@ export default function Page() {
       </section>
 
       {/* ======== SLIDE 2: QUIEN SOY ======== */}
-      <section id="quien-soy" className="relative min-h-dvh flex items-center justify-center px-4 sm:px-6 lg:px-8 pb-20 bg-glow-blue overflow-y-auto">
+      <section id="quien-soy" className="relative min-h-[calc(100dvh-56px)] flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8 bg-glow-blue overflow-y-auto">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(59,130,246,0.04),transparent_60%)]" />
-        <div className="max-w-5xl mx-auto w-full relative z-10 py-8 sm:py-12">
+        <div className="max-w-5xl mx-auto w-full relative z-10 py-2 sm:py-4">
           <div className="text-center mb-8 sm:mb-12">
             <span className="section-badge bg-blue-500/10 text-blue-400 border border-blue-500/20 mb-5">
               <User size={14} />
@@ -225,9 +225,9 @@ export default function Page() {
       </section>
 
       {/* ======== SLIDE 3: DE DONDE VENGO ======== */}
-      <section id="de-donde" className="relative min-h-dvh flex items-center justify-center px-4 sm:px-6 lg:px-8 pb-20 bg-glow-green overflow-y-auto">
+      <section id="de-donde" className="relative min-h-[calc(100dvh-56px)] flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8 bg-glow-green overflow-y-auto">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(16,185,129,0.04),transparent_60%)]" />
-        <div className="max-w-5xl mx-auto w-full relative z-10 py-8 sm:py-12">
+        <div className="max-w-5xl mx-auto w-full relative z-10 py-2 sm:py-4">
           <div className="text-center mb-8 sm:mb-12">
             <span className="section-badge bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 mb-5">
               <MapPin size={14} />
@@ -266,9 +266,9 @@ export default function Page() {
       </section>
 
       {/* ======== SLIDE 4: EXPERIENCIA ======== */}
-      <section id="experiencia" className="relative min-h-dvh flex items-center justify-center px-4 sm:px-6 lg:px-8 pb-20 bg-glow-orange overflow-y-auto">
+      <section id="experiencia" className="relative min-h-[calc(100dvh-56px)] flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8 bg-glow-orange overflow-y-auto">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(249,115,22,0.04),transparent_60%)]" />
-        <div className="max-w-5xl mx-auto w-full relative z-10 py-8 sm:py-12">
+        <div className="max-w-5xl mx-auto w-full relative z-10 py-2 sm:py-4">
           <div className="text-center mb-8 sm:mb-12">
             <span className="section-badge bg-orange-500/10 text-orange-400 border border-orange-500/20 mb-5">
               <Briefcase size={14} />
@@ -305,9 +305,9 @@ export default function Page() {
       </section>
 
       {/* ======== SLIDE 5: A QUE ME DEDICO ======== */}
-      <section id="a-que-dedico" className="relative min-h-dvh flex items-center justify-center px-4 sm:px-6 lg:px-8 pb-20 bg-glow-purple overflow-y-auto">
+      <section id="a-que-dedico" className="relative min-h-[calc(100dvh-56px)] flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8 bg-glow-purple overflow-y-auto">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(139,92,246,0.04),transparent_60%)]" />
-        <div className="max-w-5xl mx-auto w-full relative z-10 py-8 sm:py-12">
+        <div className="max-w-5xl mx-auto w-full relative z-10 py-2 sm:py-4">
           <div className="text-center mb-8 sm:mb-12">
             <span className="section-badge bg-purple-500/10 text-purple-400 border border-purple-500/20 mb-5">
               <Workflow size={14} />
@@ -359,9 +359,9 @@ export default function Page() {
       </section>
 
       {/* ======== SLIDE 6: CLIENTES ACTUALES ======== */}
-      <section id="clientes" className="relative min-h-dvh flex items-center justify-center px-4 sm:px-6 lg:px-8 pb-20 bg-glow-blue overflow-y-auto">
+      <section id="clientes" className="relative min-h-[calc(100dvh-56px)] flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8 bg-glow-blue overflow-y-auto">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(59,130,246,0.04),transparent_60%)]" />
-        <div className="max-w-5xl mx-auto w-full relative z-10 py-8 sm:py-12">
+        <div className="max-w-5xl mx-auto w-full relative z-10 py-2 sm:py-4">
           <div className="text-center mb-8 sm:mb-12">
             <span className="section-badge bg-blue-500/10 text-blue-400 border border-blue-500/20 mb-5">
               <Building2 size={14} />
@@ -401,9 +401,9 @@ export default function Page() {
       </section>
 
       {/* ======== SLIDE 7: PROSPECTOS ======== */}
-      <section id="prospectos" className="relative min-h-dvh flex items-center justify-center px-4 sm:px-6 lg:px-8 pb-20 bg-glow-green overflow-y-auto">
+      <section id="prospectos" className="relative min-h-[calc(100dvh-56px)] flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8 bg-glow-green overflow-y-auto">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(16,185,129,0.04),transparent_60%)]" />
-        <div className="max-w-5xl mx-auto w-full relative z-10 py-8 sm:py-12">
+        <div className="max-w-5xl mx-auto w-full relative z-10 py-2 sm:py-4">
           <div className="text-center mb-8 sm:mb-12">
             <span className="section-badge bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 mb-5">
               <Rocket size={14} />
@@ -468,9 +468,9 @@ export default function Page() {
       </section>
 
       {/* ======== SLIDE 8: PROYECTOS EN VIVO ======== */}
-      <section id="proyectos" className="relative min-h-dvh flex items-center justify-center px-4 sm:px-6 lg:px-8 pb-20 bg-glow-pink overflow-y-auto">
+      <section id="proyectos" className="relative min-h-[calc(100dvh-56px)] flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8 bg-glow-pink overflow-y-auto">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(236,72,153,0.04),transparent_60%)]" />
-        <div className="max-w-5xl mx-auto w-full relative z-10 py-8 sm:py-12">
+        <div className="max-w-5xl mx-auto w-full relative z-10 py-2 sm:py-4">
           <div className="text-center mb-8 sm:mb-12">
             <span className="section-badge bg-pink-500/10 text-pink-400 border border-pink-500/20 mb-5">
               <Globe size={14} />
@@ -520,9 +520,9 @@ export default function Page() {
       </section>
 
       {/* ======== SLIDE 9: MIS LIMITES ======== */}
-      <section id="limites" className="relative min-h-dvh flex items-center justify-center px-4 sm:px-6 lg:px-8 pb-20 bg-glow-red overflow-y-auto">
+      <section id="limites" className="relative min-h-[calc(100dvh-56px)] flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8 bg-glow-red overflow-y-auto">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(239,68,68,0.04),transparent_60%)]" />
-        <div className="max-w-5xl mx-auto w-full relative z-10 py-8 sm:py-12">
+        <div className="max-w-5xl mx-auto w-full relative z-10 py-2 sm:py-4">
           <div className="text-center mb-8 sm:mb-12">
             <span className="section-badge bg-red-500/10 text-red-400 border border-red-500/20 mb-5">
               <Infinity size={14} />
@@ -584,9 +584,9 @@ export default function Page() {
       </section>
 
       {/* ======== SLIDE 10: METAS EN NEO WAS ======== */}
-      <section id="metas" className="relative min-h-dvh flex items-center justify-center px-4 sm:px-6 lg:px-8 pb-20 bg-glow-purple overflow-y-auto">
+      <section id="metas" className="relative min-h-[calc(100dvh-56px)] flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8 bg-glow-purple overflow-y-auto">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(139,92,246,0.04),transparent_60%)]" />
-        <div className="max-w-5xl mx-auto w-full relative z-10 py-8 sm:py-12">
+        <div className="max-w-5xl mx-auto w-full relative z-10 py-2 sm:py-4">
           <div className="text-center mb-8 sm:mb-12">
             <span className="section-badge bg-purple-500/10 text-purple-400 border border-purple-500/20 mb-5">
               <Target size={14} />
@@ -631,9 +631,9 @@ export default function Page() {
       </section>
 
       {/* ======== SLIDE 11: CIERRE ======== */}
-      <section id="cierre" className="relative min-h-dvh flex items-center justify-center px-4 sm:px-6 lg:px-8 pb-20 bg-glow-blue overflow-y-auto">
+      <section id="cierre" className="relative min-h-[calc(100dvh-56px)] flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8 bg-glow-blue overflow-y-auto">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(59,130,246,0.04),transparent_60%)]" />
-        <div className="max-w-5xl mx-auto w-full relative z-10 py-8 sm:py-12">
+        <div className="max-w-5xl mx-auto w-full relative z-10 py-2 sm:py-4">
           <div className="text-center mb-8 sm:mb-12">
             <span className="section-badge bg-blue-500/10 text-blue-400 border border-blue-500/20 mb-5">
               <Handshake size={14} />
