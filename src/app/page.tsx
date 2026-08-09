@@ -31,6 +31,11 @@ import {
   Clock,
   ArrowRight,
   Check,
+  Package,
+  BarChart3,
+  Coffee,
+  Brain,
+  Heart,
 } from "lucide-react";
 
 type Accent = "purple" | "blue" | "green" | "orange" | "red" | "pink";
@@ -133,7 +138,7 @@ export default function Page() {
             </span>
           </div>
           <h1 className="font-display font-bold text-4xl sm:text-6xl lg:text-7xl tracking-tight leading-none text-text-primary mb-3 animate-fade-in-up stagger-1 text-balance">
-            Rodo Ramirez
+            Rodolfo Ramírez
           </h1>
           <div className="text-2xl sm:text-4xl font-light text-text-muted mb-3 animate-fade-in-up stagger-2">&times;</div>
           <h2 className="font-display font-bold text-3xl sm:text-5xl lg:text-6xl tracking-tight leading-none gradient-text-purple mb-8 animate-fade-in-up stagger-3 text-balance">
@@ -154,9 +159,9 @@ export default function Page() {
       </section>
 
       {/* ======== SLIDE 2: QUIEN SOY ======== */}
-      <section id="quien-soy" className="relative min-h-dvh py-16 sm:py-20 lg:py-24 px-4 sm:px-6 lg:px-8 pb-20 bg-glow-blue overflow-y-auto">
+      <section id="quien-soy" className="relative min-h-dvh flex items-center justify-center px-4 sm:px-6 lg:px-8 pb-20 bg-glow-blue overflow-y-auto">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(59,130,246,0.04),transparent_60%)]" />
-        <div className="max-w-5xl mx-auto w-full relative z-10">
+        <div className="max-w-5xl mx-auto w-full relative z-10 py-8 sm:py-12">
           <div className="text-center mb-8 sm:mb-12">
             <span className="section-badge bg-blue-500/10 text-blue-400 border border-blue-500/20 mb-5">
               <User size={14} />
@@ -220,9 +225,9 @@ export default function Page() {
       </section>
 
       {/* ======== SLIDE 3: DE DONDE VENGO ======== */}
-      <section id="de-donde" className="relative min-h-dvh py-16 sm:py-20 lg:py-24 px-4 sm:px-6 lg:px-8 pb-20 bg-glow-green overflow-y-auto">
+      <section id="de-donde" className="relative min-h-dvh flex items-center justify-center px-4 sm:px-6 lg:px-8 pb-20 bg-glow-green overflow-y-auto">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(16,185,129,0.04),transparent_60%)]" />
-        <div className="max-w-5xl mx-auto w-full relative z-10">
+        <div className="max-w-5xl mx-auto w-full relative z-10 py-8 sm:py-12">
           <div className="text-center mb-8 sm:mb-12">
             <span className="section-badge bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 mb-5">
               <MapPin size={14} />
@@ -261,9 +266,9 @@ export default function Page() {
       </section>
 
       {/* ======== SLIDE 4: EXPERIENCIA ======== */}
-      <section id="experiencia" className="relative min-h-dvh py-16 sm:py-20 lg:py-24 px-4 sm:px-6 lg:px-8 pb-20 bg-glow-orange overflow-y-auto">
+      <section id="experiencia" className="relative min-h-dvh flex items-center justify-center px-4 sm:px-6 lg:px-8 pb-20 bg-glow-orange overflow-y-auto">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(249,115,22,0.04),transparent_60%)]" />
-        <div className="max-w-5xl mx-auto w-full relative z-10">
+        <div className="max-w-5xl mx-auto w-full relative z-10 py-8 sm:py-12">
           <div className="text-center mb-8 sm:mb-12">
             <span className="section-badge bg-orange-500/10 text-orange-400 border border-orange-500/20 mb-5">
               <Briefcase size={14} />
@@ -300,9 +305,9 @@ export default function Page() {
       </section>
 
       {/* ======== SLIDE 5: A QUE ME DEDICO ======== */}
-      <section id="a-que-dedico" className="relative min-h-dvh py-16 sm:py-20 lg:py-24 px-4 sm:px-6 lg:px-8 pb-20 bg-glow-purple overflow-y-auto">
+      <section id="a-que-dedico" className="relative min-h-dvh flex items-center justify-center px-4 sm:px-6 lg:px-8 pb-20 bg-glow-purple overflow-y-auto">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(139,92,246,0.04),transparent_60%)]" />
-        <div className="max-w-5xl mx-auto w-full relative z-10">
+        <div className="max-w-5xl mx-auto w-full relative z-10 py-8 sm:py-12">
           <div className="text-center mb-8 sm:mb-12">
             <span className="section-badge bg-purple-500/10 text-purple-400 border border-purple-500/20 mb-5">
               <Workflow size={14} />
@@ -354,9 +359,9 @@ export default function Page() {
       </section>
 
       {/* ======== SLIDE 6: CLIENTES ACTUALES ======== */}
-      <section id="clientes" className="relative min-h-dvh py-16 sm:py-20 lg:py-24 px-4 sm:px-6 lg:px-8 pb-20 bg-glow-blue overflow-y-auto">
+      <section id="clientes" className="relative min-h-dvh flex items-center justify-center px-4 sm:px-6 lg:px-8 pb-20 bg-glow-blue overflow-y-auto">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(59,130,246,0.04),transparent_60%)]" />
-        <div className="max-w-5xl mx-auto w-full relative z-10">
+        <div className="max-w-5xl mx-auto w-full relative z-10 py-8 sm:py-12">
           <div className="text-center mb-8 sm:mb-12">
             <span className="section-badge bg-blue-500/10 text-blue-400 border border-blue-500/20 mb-5">
               <Building2 size={14} />
@@ -396,9 +401,9 @@ export default function Page() {
       </section>
 
       {/* ======== SLIDE 7: PROSPECTOS ======== */}
-      <section id="prospectos" className="relative min-h-dvh py-16 sm:py-20 lg:py-24 px-4 sm:px-6 lg:px-8 pb-20 bg-glow-green overflow-y-auto">
+      <section id="prospectos" className="relative min-h-dvh flex items-center justify-center px-4 sm:px-6 lg:px-8 pb-20 bg-glow-green overflow-y-auto">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(16,185,129,0.04),transparent_60%)]" />
-        <div className="max-w-5xl mx-auto w-full relative z-10">
+        <div className="max-w-5xl mx-auto w-full relative z-10 py-8 sm:py-12">
           <div className="text-center mb-8 sm:mb-12">
             <span className="section-badge bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 mb-5">
               <Rocket size={14} />
@@ -463,9 +468,9 @@ export default function Page() {
       </section>
 
       {/* ======== SLIDE 8: PROYECTOS EN VIVO ======== */}
-      <section id="proyectos" className="relative min-h-dvh py-16 sm:py-20 lg:py-24 px-4 sm:px-6 lg:px-8 pb-20 bg-glow-pink overflow-y-auto">
+      <section id="proyectos" className="relative min-h-dvh flex items-center justify-center px-4 sm:px-6 lg:px-8 pb-20 bg-glow-pink overflow-y-auto">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(236,72,153,0.04),transparent_60%)]" />
-        <div className="max-w-5xl mx-auto w-full relative z-10">
+        <div className="max-w-5xl mx-auto w-full relative z-10 py-8 sm:py-12">
           <div className="text-center mb-8 sm:mb-12">
             <span className="section-badge bg-pink-500/10 text-pink-400 border border-pink-500/20 mb-5">
               <Globe size={14} />
@@ -481,15 +486,15 @@ export default function Page() {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4 max-w-4xl mx-auto">
             {[
-              { label: "Be-Dental", desc: "Clinica dental", url: "https://onda-be-dental.laeji7.easypanel.host/portal", accent: "blue" },
-              { label: "Bisuteria Luna", desc: "ERP inventario", url: "https://onda-luna-bis.laeji7.easypanel.host/admin", accent: "pink" },
-              { label: "Central Vet", desc: "Veterinaria", url: "https://gowlink-agency-test-gla-vet.laeji7.easypanel.host/portal", accent: "green" },
-              { label: "Dra. Carmelita", desc: "Medico general", url: "https://dra-carmelita.netlify.app/", accent: "blue" },
-              { label: "Encuestas Luna", desc: "Satisfaccion IA", url: "https://gowlink-agency-test-gla-encuestas.laeji7.easypanel.host/dashboard", accent: "orange" },
-              { label: "Cafeteria Luna", desc: "Menu + WhatsApp IA", url: "https://gowlink-agency-test-luna.laeji7.easypanel.host/menu", accent: "orange" },
-              { label: "Huitzie Psicologia", desc: "Agendamiento", url: "https://gla-psic.netlify.app/portal", accent: "green" },
-              { label: "PA Trivia Game", desc: "Juego educativo", url: "https://pa-trivia-game-s4.netlify.app/", accent: "purple" },
-              { label: "Tacos El Compa", desc: "Menu digital", url: "https://tacos-el-compa-oficial.netlify.app/", accent: "orange" },
+              { label: "Be-Dental", desc: "Clinica dental", url: "https://onda-be-dental.laeji7.easypanel.host/portal", icon: Stethoscope },
+              { label: "Bisuteria Luna", desc: "ERP inventario", url: "https://onda-luna-bis.laeji7.easypanel.host/admin", icon: Package },
+              { label: "Central Vet", desc: "Veterinaria", url: "https://gowlink-agency-test-gla-vet.laeji7.easypanel.host/portal", icon: Heart },
+              { label: "Dra. Carmelita", desc: "Medico general", url: "https://dra-carmelita.netlify.app/", icon: Stethoscope },
+              { label: "Encuestas Luna", desc: "Satisfaccion IA", url: "https://gowlink-agency-test-gla-encuestas.laeji7.easypanel.host/dashboard", icon: BarChart3 },
+              { label: "Cafeteria Luna", desc: "Menu + WhatsApp IA", url: "https://gowlink-agency-test-luna.laeji7.easypanel.host/menu", icon: Coffee },
+              { label: "Huitzie Psicologia", desc: "Agendamiento", url: "https://gla-psic.netlify.app/portal", icon: Brain },
+              { label: "PA Trivia Game", desc: "Juego educativo", url: "https://pa-trivia-game-s4.netlify.app/", icon: GraduationCap },
+              { label: "Tacos El Compa", desc: "Menu digital", url: "https://tacos-el-compa-oficial.netlify.app/", icon: Utensils },
             ].map((proj, i) => (
               <a
                 key={i}
@@ -500,7 +505,10 @@ export default function Page() {
                 style={{ animationDelay: `${0.07 * (i + 1)}s`, opacity: 0 }}
               >
                 <div className="flex items-center justify-between mb-2">
-                  <p className="font-display font-semibold text-sm text-text-primary group-hover:text-pink-400 transition-colors">{proj.label}</p>
+                  <div className="flex items-center gap-2">
+                    <proj.icon size={16} className="text-pink-400 group-hover:text-pink-300 transition-colors" />
+                    <p className="font-display font-semibold text-sm text-text-primary group-hover:text-pink-400 transition-colors">{proj.label}</p>
+                  </div>
                   <ExternalLink size={14} className="text-text-muted group-hover:text-pink-400 transition-colors" />
                 </div>
                 <p className="text-text-muted text-xs">{proj.desc}</p>
@@ -512,9 +520,9 @@ export default function Page() {
       </section>
 
       {/* ======== SLIDE 9: MIS LIMITES ======== */}
-      <section id="limites" className="relative min-h-dvh py-16 sm:py-20 lg:py-24 px-4 sm:px-6 lg:px-8 pb-20 bg-glow-red overflow-y-auto">
+      <section id="limites" className="relative min-h-dvh flex items-center justify-center px-4 sm:px-6 lg:px-8 pb-20 bg-glow-red overflow-y-auto">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(239,68,68,0.04),transparent_60%)]" />
-        <div className="max-w-5xl mx-auto w-full relative z-10">
+        <div className="max-w-5xl mx-auto w-full relative z-10 py-8 sm:py-12">
           <div className="text-center mb-8 sm:mb-12">
             <span className="section-badge bg-red-500/10 text-red-400 border border-red-500/20 mb-5">
               <Infinity size={14} />
@@ -576,9 +584,9 @@ export default function Page() {
       </section>
 
       {/* ======== SLIDE 10: METAS EN NEO WAS ======== */}
-      <section id="metas" className="relative min-h-dvh py-16 sm:py-20 lg:py-24 px-4 sm:px-6 lg:px-8 pb-20 bg-glow-purple overflow-y-auto">
+      <section id="metas" className="relative min-h-dvh flex items-center justify-center px-4 sm:px-6 lg:px-8 pb-20 bg-glow-purple overflow-y-auto">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(139,92,246,0.04),transparent_60%)]" />
-        <div className="max-w-5xl mx-auto w-full relative z-10">
+        <div className="max-w-5xl mx-auto w-full relative z-10 py-8 sm:py-12">
           <div className="text-center mb-8 sm:mb-12">
             <span className="section-badge bg-purple-500/10 text-purple-400 border border-purple-500/20 mb-5">
               <Target size={14} />
@@ -623,9 +631,9 @@ export default function Page() {
       </section>
 
       {/* ======== SLIDE 11: CIERRE ======== */}
-      <section id="cierre" className="relative min-h-dvh py-16 sm:py-20 lg:py-24 px-4 sm:px-6 lg:px-8 pb-20 bg-glow-blue overflow-y-auto">
+      <section id="cierre" className="relative min-h-dvh flex items-center justify-center px-4 sm:px-6 lg:px-8 pb-20 bg-glow-blue overflow-y-auto">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(59,130,246,0.04),transparent_60%)]" />
-        <div className="max-w-5xl mx-auto w-full relative z-10">
+        <div className="max-w-5xl mx-auto w-full relative z-10 py-8 sm:py-12">
           <div className="text-center mb-8 sm:mb-12">
             <span className="section-badge bg-blue-500/10 text-blue-400 border border-blue-500/20 mb-5">
               <Handshake size={14} />
@@ -695,17 +703,18 @@ export default function Page() {
       </section>
 
       {/* ======== BOTTOM NAVIGATION ======== */}
-      <nav className="fixed bottom-0 left-0 right-0 z-50 bg-obsidian-950/95 backdrop-blur-xl border-t border-obsidian-600/50 px-1 sm:px-2 py-2">
-        <div className="max-w-6xl mx-auto flex items-center gap-0.5 sm:gap-1 overflow-x-auto scrollbar-none">
+      <nav className="fixed bottom-0 left-0 right-0 z-50 bg-obsidian-950/95 backdrop-blur-xl border-t border-obsidian-600/50 px-2 py-2">
+        <div className="max-w-6xl mx-auto flex items-center justify-center relative">
           <button
             onClick={() => prevId && scrollTo(prevId)}
             disabled={!prevId}
-            className="shrink-0 p-1.5 rounded-xl text-obsidian-400 hover:text-text-secondary hover:bg-obsidian-800/50 transition-all duration-300 disabled:opacity-30 disabled:cursor-default"
+            className="absolute left-1 p-1.5 rounded-xl text-obsidian-400 hover:text-text-secondary hover:bg-obsidian-800/50 transition-all duration-300 disabled:opacity-30 disabled:cursor-default z-10"
             aria-label="Anterior"
           >
             <ChevronLeft size={16} />
           </button>
 
+          <div className="flex items-center gap-0.5 sm:gap-1 overflow-x-auto scrollbar-none">
           {navItems.map((item) => {
             const isActive = activeSection === item.id;
             const styles = accentStyles[item.accent];
@@ -727,17 +736,18 @@ export default function Page() {
               </button>
             );
           })}
+          </div>
 
           <button
             onClick={() => nextId && scrollTo(nextId)}
             disabled={!nextId}
-            className="shrink-0 p-1.5 rounded-xl text-obsidian-400 hover:text-text-secondary hover:bg-obsidian-800/50 transition-all duration-300 disabled:opacity-30 disabled:cursor-default"
+            className="absolute right-11 p-1.5 rounded-xl text-obsidian-400 hover:text-text-secondary hover:bg-obsidian-800/50 transition-all duration-300 disabled:opacity-30 disabled:cursor-default z-10"
             aria-label="Siguiente"
           >
             <ChevronRight size={16} />
           </button>
 
-          <span className="ml-auto font-mono text-xs text-text-muted shrink-0">
+          <span className="absolute right-1.5 font-mono text-xs text-text-muted shrink-0">
             {currentIdx + 1}/{navItems.length}
           </span>
         </div>

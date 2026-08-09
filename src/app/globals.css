@@ -68,33 +68,33 @@
 
   .bg-glow-purple {
     background:
-      radial-gradient(ellipse at 50% 0%, rgba(139, 92, 246, 0.06), transparent 60%),
-      radial-gradient(ellipse at 50% 100%, rgba(139, 92, 246, 0.04), transparent 60%);
+      radial-gradient(ellipse at 0% 50%, rgba(139, 92, 246, 0.06), transparent 60%),
+      radial-gradient(ellipse at 100% 50%, rgba(139, 92, 246, 0.04), transparent 60%);
   }
   .bg-glow-blue {
     background:
-      radial-gradient(ellipse at 50% 0%, rgba(59, 130, 246, 0.06), transparent 60%),
-      radial-gradient(ellipse at 50% 100%, rgba(59, 130, 246, 0.04), transparent 60%);
+      radial-gradient(ellipse at 0% 50%, rgba(59, 130, 246, 0.06), transparent 60%),
+      radial-gradient(ellipse at 100% 50%, rgba(59, 130, 246, 0.04), transparent 60%);
   }
   .bg-glow-green {
     background:
-      radial-gradient(ellipse at 50% 0%, rgba(16, 185, 129, 0.06), transparent 60%),
-      radial-gradient(ellipse at 50% 100%, rgba(16, 185, 129, 0.04), transparent 60%);
+      radial-gradient(ellipse at 0% 50%, rgba(16, 185, 129, 0.06), transparent 60%),
+      radial-gradient(ellipse at 100% 50%, rgba(16, 185, 129, 0.04), transparent 60%);
   }
   .bg-glow-orange {
     background:
-      radial-gradient(ellipse at 50% 0%, rgba(249, 115, 22, 0.06), transparent 60%),
-      radial-gradient(ellipse at 50% 100%, rgba(249, 115, 22, 0.04), transparent 60%);
+      radial-gradient(ellipse at 0% 50%, rgba(249, 115, 22, 0.06), transparent 60%),
+      radial-gradient(ellipse at 100% 50%, rgba(249, 115, 22, 0.04), transparent 60%);
   }
   .bg-glow-pink {
     background:
-      radial-gradient(ellipse at 50% 0%, rgba(236, 72, 153, 0.06), transparent 60%),
-      radial-gradient(ellipse at 50% 100%, rgba(236, 72, 153, 0.04), transparent 60%);
+      radial-gradient(ellipse at 0% 50%, rgba(236, 72, 153, 0.06), transparent 60%),
+      radial-gradient(ellipse at 100% 50%, rgba(236, 72, 153, 0.04), transparent 60%);
   }
   .bg-glow-red {
     background:
-      radial-gradient(ellipse at 50% 0%, rgba(239, 68, 68, 0.06), transparent 60%),
-      radial-gradient(ellipse at 50% 100%, rgba(239, 68, 68, 0.04), transparent 60%);
+      radial-gradient(ellipse at 0% 50%, rgba(239, 68, 68, 0.06), transparent 60%),
+      radial-gradient(ellipse at 100% 50%, rgba(239, 68, 68, 0.04), transparent 60%);
   }
 }
 
